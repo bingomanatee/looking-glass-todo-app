@@ -1,7 +1,9 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react'
+import {render} from 'react-dom'
+import App from './components/App'
 
-import App from "./App";
+import 'todomvc-app-css/index.css'
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+render(
+    <App />,document.getElementById('root')
+)
